@@ -7,5 +7,3 @@ Houses prject work and examples from Analytical Workflows
 
 # added some words to experimental branch. yay!
 # trial commit 1
-# trial commit 2
-# trial commit 3 yippee
