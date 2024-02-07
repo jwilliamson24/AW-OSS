@@ -6,3 +6,4 @@ Houses prject work and examples from Analytical Workflows
 ## then we analyze it using [this script](code\data_analysis.R)
 
 # added some words to experimental branch. yay!
+# trial commit 1
