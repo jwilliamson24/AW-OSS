@@ -69,3 +69,5 @@ comp
 comp <- microbenchmark(Old = {geom_growth_base(T = 9999)},
 New = {geom_growth_preallocated(T = 9999)})
 comp
+
+boxplot(log(time) ~ expr, data = comp)
