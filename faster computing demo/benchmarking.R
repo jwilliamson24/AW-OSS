@@ -42,9 +42,17 @@ end_time <- Sys.time()
 time_elapsed <- end_time - start_time
 print(time_elapsed)
 
+
 # Repeat with longer time 
 start_time <- Sys.time()
-out <- geom_growth_base(T = 9E5)
+out <- geom_growth_base(T = 9E5) #basically asking forloop to repeat ~1000x
 end_time <- Sys.time()
 time_elapsed <- end_time - start_time
-print(time_elapsed)
+print(time_elapsed) # almost 1000x longer
+
+
+# Benchmark with system.time, more repeatable
+system.time(geom_growth_base(T=9E5))
+#user is time spent on your code
+#system is other things your computer is doing in the background
+
